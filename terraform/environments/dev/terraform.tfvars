@@ -1,7 +1,8 @@
 resource_group_name           = "keyvault-resources"
-resource_group_location       = "West Europe"
+resource_group_location       = "East US"
 key_vault_name                = "Algorimsvault"
 tags = {
   environment = "dev"
   team        = "devops"
 }
+
