@@ -16,15 +16,16 @@ variable "key_vault_name" {
 variable "tenant_id" {
   description = "The Tenant ID for your Azure Active Directory"
   type        = string
-  default = "9c26bc1d-0dac-4b03-b3b2-4b19e2dcf202"
+  default = "efd2aad3-50d6-430d-868f-9a4308046e38"
 }
 
 variable "service_principle_object_id" {
   description = "The Object ID of the Service Principal that needs access to the Key Vault"
   type        = string
-  default = "2f78ed3c-cd44-4df3-afd4-f008899bf9ce"
+  default = "9b279310-7b6c-4290-82e6-7cadefbf274a"
 }
 
 variable "tags" {
   type = map(string)
+
 }
